@@ -34,7 +34,7 @@ a {
 
 .card-container {
     display: flex;
-    margin: 10rem;
+    margin: 8rem;
     border-radius: 1rem;
     overflow: hidden;
 }
@@ -113,4 +113,45 @@ a {
 
 .attribution a:hover {
     color: hsla(228, 45%, 44%, 0.644);
+}
+
+@media (max-width: 1039px) {
+    .card-container {
+        margin: 4rem;
+    }
+}
+
+@media (max-width: 937px) {
+    .card-container {
+        margin: 4rem;
+    }
+
+    .icon {
+        width: ;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 0.875rem;
+    }
+
+    .button {
+        font-size: 0.7rem;
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .card-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        margin: 5rem 3rem;
+    }
 }
