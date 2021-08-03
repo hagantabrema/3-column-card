@@ -1,0 +1,116 @@
+/*========== GOOGLE FONT ========== */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    /*========== FONT ========== */
+    --lexend-deca: 'Lexend Deca', sans-serif;
+    --big-shoulders-display: 'Big Shoulders Display', cursive;
+
+    /*========== COLOR ========== */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    background-color: var(--very-light-gray);
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    margin: 10rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card--sedans {
+    background-color: var(--bright-orange);
+}
+
+.card--suvs {
+    background-color: var(--dark-cyan);
+}
+
+.card--luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+.subtitle,
+.button {
+    font-family: var(--lexend-deca);
+}
+
+.title {
+    font-family: var(--big-shoulders-display);
+    color: var(--very-light-gray);
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.subtitle {
+    color: var(--transparent-white);
+    line-height: 1.7rem;
+    margin-top: 2rem;
+}
+
+.button {
+    padding: 1.2rem 2.5rem;
+    background-color: var(--very-light-gray);
+    border-radius: 2rem;
+    margin-top: 5rem;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
+}
+
+.button--sedans {
+    color: var(--bright-orange);
+}
+
+.button--suvs {
+    color: var(--dark-cyan);
+}
+
+.button--luxury {
+    color: var(--very-dark-cyan);
+}
+
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+    font-family: var(--lexend-deca);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: hsla(228, 45%, 44%, 0.644);
+}
