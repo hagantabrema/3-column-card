@@ -126,10 +126,6 @@ a {
         margin: 4rem;
     }
 
-    .icon {
-        width: ;
-    }
-
     .title {
         font-size: 2rem;
     }
@@ -147,6 +143,21 @@ a {
 @media (max-width: 812px) {
     .card-container {
         flex-direction: column;
+    }
+
+    .title {
+        font-size: 2.8rem;
+    }
+
+    .subtitle {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .button {
+        font-size: 1rem;
+        margin-top: 3rem;
+        padding: 1rem 2rem;
     }
 }
 
