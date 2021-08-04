@@ -6,7 +6,6 @@ Hello, this is my attempt to solve the challenge [3-column preview card componen
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
